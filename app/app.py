@@ -5,7 +5,6 @@ from chatbot import chatbot
 app = Flask(__name__)
 
 
-# Function to generate a random response from the list of predefined responses
 def generate_response(query):
     response = chatbot(query)
     return response
